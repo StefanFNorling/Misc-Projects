@@ -1,3 +1,12 @@
+# Stefan Norling
+# sfn2mc
+
+# This program finds the shortest path to the middle of a graph from
+# the four corners of the graph
+
+# Input for this is a line of numbers, rows separated by semicolons and
+# each element of them separated by a comma
+
 file = open("programaday2.txt", "r")
 
 besttlpath = ["", 0]

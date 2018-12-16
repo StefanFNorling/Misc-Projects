@@ -1,4 +1,4 @@
-# naive prime number checker
+# Naive prime number checker
 
 file = open("programaday2.1.txt", "r")
 
