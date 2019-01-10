@@ -15,8 +15,8 @@ def lucky_sum(a, b, c):
     nums = [a,b,c]
     sum = 0
     for num in nums:
-    if num == 13:
-      return sum
+        if num == 13:
+            return sum
     else:
       sum += num
     return sum
@@ -45,3 +45,18 @@ def round_sum(a, b, c):
       num = num // 10 * 10
       sum += num
   return sum
+
+def make_chocolate(small, big, goal):
+  i = 0
+  while i < big and goal >= 0:
+    goal -= 5
+    i += 1
+  if goal < 0:
+    goal += 5
+  if small >= goal:
+    return goal
+  else:
+    return -1
+
+print(make_chocolate(5, 5, 25))
+
