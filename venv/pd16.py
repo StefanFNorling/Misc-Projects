@@ -1,4 +1,5 @@
 import re
+
 a = ["timmy","tammy", "billy"]
 b = [10, 20, 43]
 c = {}
@@ -25,3 +26,9 @@ cols = 10
 matrix = [[0 for y in range(cols)] for x in range(rows)]
 matrix[0][1] = 6
 print(matrix)
+for x in range(5,10,2):
+    print(x)
+    print(x+1)
+print(x)
+for x in range(0,5,1):
+    print(x)
